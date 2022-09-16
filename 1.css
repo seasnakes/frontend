@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+  
+}
+td,th {
+    border: thick double rgb(101, 101, 101);
+    padding: 10px 0px;
+  }
+.summary {
+    color: black;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2em;
+    text-indent: 2em;
+
+}
+.prize{
+    color: red;
+    font-size:14px;
+    margin-left: 20px;
+}
+.promise{
+    color:red;
+    font-size:12px;
+    margin-left:20px;
+}
+.recom{
+    color: black;
+    font-size: 16px;
+}
+/* 字体大小是调整font-size 不是size属性 */
+/* 行高是line-height 不是height */
+
+button{
+    color: red;
+}
+button:disabled{
+    color: white;
+    background-color: gray;
+    
+}
